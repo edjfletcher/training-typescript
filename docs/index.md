@@ -1,39 +1,26 @@
-## Welcome to Typescript Training
+# Training: Typescript (TS)
+Welcome to a guide aimed at learning Typescript.
 
-You can use the [editor on GitHub](https://github.com/edjfletcher/training-typescript/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+We assume some basic programming knowledge of at least one other language.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Javascript (JS) knowledge is helpful but not required as it will be covered in the prerequisites.
 
-testing how this changes
+## What is Typescript
+"TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale."
+(https://www.typescriptlang.org/)
 
-### Markdown
+Typescript builds on ES6.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+It can be compiled down to ES5 but knowing ES5 will improve both understanding and coding standards.
 
-```markdown
-Syntax highlighted code block
+Typescript is designed to be built ontop of JS. It will never override or remove JS rules. It fits perfectly on top of JS development.
 
-# Header 1
-## Header 2
-### Header 3
+## Why use Typescript
+Because Typescript is strictly typed it gives far clearer error messages and better information while coding which enables faster integrations
 
-- Bulleted
-- List
+Through part 1 we will be showing you code in both JS and TS so that you can get a better picture of the benefit of using Typescript.
 
-1. Numbered
-2. List
+## Prerequisites
+Knowing ES6 will help understand Typescript as it is built on top of JS.
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/edjfletcher/training-typescript/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+To aid this understanding we recommend looking as https://www.javascripttutorial.net/es6/
