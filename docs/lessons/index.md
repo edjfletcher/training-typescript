@@ -1,2 +1,3 @@
 # Lessons
-## Part 1 - Language Constructs
+
+1. [Basic JS and TS](session1/index.md)

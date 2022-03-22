@@ -1,6 +1,7 @@
 # Part 1
 
-## Why use TS
+
+
 
 ## ES6 in Typescript
  - var, let, const
@@ -30,6 +31,7 @@ const arr: Array<string> = [];
 ```
 
  - arrow function
+
 
 ## Typescript Basics
  - Interface

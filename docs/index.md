@@ -24,3 +24,6 @@ Through part 1 we will be showing you code in both JS and TS so that you can get
 Knowing ES6 will help understand Typescript as it is built on top of JS.
 
 To aid this understanding we recommend looking as https://www.javascripttutorial.net/es6/
+
+# Lessons
+[Lessons List](lessons/index.md)
