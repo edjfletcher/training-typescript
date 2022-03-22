@@ -1,4 +1,5 @@
-# Convert this JS script to ES6
+# Session1: Exercise 1
+## Convert this JS script to ES6
 
 This is a message modal.
 It will wrap the message in the HTML required for our model
@@ -32,7 +33,7 @@ These are in here purposely to show scoping.
 This code should not be used as an example of production ready coding.
 
 
-# Solution
+## Solution
 
 ```typescript
 const messageModel = (message) => {

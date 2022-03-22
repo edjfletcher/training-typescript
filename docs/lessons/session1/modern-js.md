@@ -1,4 +1,4 @@
-# Modern Javascript (JS)
+# Session 1: Modern Javascript (JS)
 > **Acronyms** \
 > Javascript - JS \
 > Typescript - TS
@@ -16,8 +16,7 @@ Modern JS has three variable types: var, let, and const
 
 'const' is the same as let except that once assigned it can't be changed.
 
-### Example
-old JS
+**Old JS**
 ```javascript
 myVar = 1;
 function change() {
@@ -26,7 +25,7 @@ function change() {
 change();
 // myVar == 2
 ```
-new JS
+**ES6**
 ```javascript
 let myVar = 1;
 function change() {
@@ -34,6 +33,12 @@ function change() {
 }
 change();
 // myVar == 1
+
+const myConst = 1;
+function change() {
+    myConst = 2;
+}
+change(); // This will error as you can't reassign a constant
 ```
 let scopes the second variable to the change function instead of globally.
 The second variable has nothing to do with the first one and is deleted once the function call ends.
