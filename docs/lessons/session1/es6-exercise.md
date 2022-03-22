@@ -32,11 +32,9 @@ These are in here purposely to show scoping.
 This code should not be used as an example of production ready coding.
 
 
-<details><summary>Solution -></summary>
-<p>
+# Solution
 
 ```typescript
-
 const messageModel = (message) => {
     var output = '<div class="model>';
 
@@ -58,8 +56,4 @@ const messageModel = (message) => {
 
     return output;
 }
-
 ```
-
-</p>
-</details>
