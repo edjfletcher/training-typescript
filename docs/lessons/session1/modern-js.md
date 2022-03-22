@@ -88,3 +88,5 @@ prom.catch((err) => {
     // This arrow function will be called if there is an errro throw where err contains the error data
 })
 ```
+# Exercise
+[Why not try these exercises out](es6-exercise.md)
