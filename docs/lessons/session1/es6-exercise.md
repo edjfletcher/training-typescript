@@ -58,3 +58,5 @@ const messageModel = (message) => {
     return output;
 }
 ```
+## Next: ES6 to TS
+[Convert ES6 to TS](es6-to-ts.md)
