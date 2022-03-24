@@ -77,3 +77,4 @@ const arr: string[] = [];
 They both result in the same thing. It is down to preference which one you use.
 
 # Exercise
+[Try the ES6 to Typescript conversion exercise](ts-exercise.md)

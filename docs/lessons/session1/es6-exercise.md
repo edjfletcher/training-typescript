@@ -43,7 +43,7 @@ const messageModel = (message) => {
          output += '<div class="model-header">Message</div>';
     }
 
-    content = (message) => {
+    const content = (message) => {
         let cont = '<div class="model-content">';
         cont += message;
         cont += '</div>';
