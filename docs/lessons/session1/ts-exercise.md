@@ -52,3 +52,6 @@ You can see that the solution is very similar. Typescript is meant to look very 
 In this example Typescript will be checking the types that are passed around to ensure that they line up correctly.
 
 As an example, if you change one of the string typings to number your IDE will highlight the error.
+
+# Next steps
+[Getting started with a Typescript project](getting-started.md)
