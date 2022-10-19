@@ -1,8 +1,6 @@
-import {describe} from "node:test";
 import chai from 'chai';
 import chaiHttp from 'chai-http';
 import * as request from "superagent";
-import {SuperAgentRequest} from "superagent";
 
 chai.use(chaiHttp);
 const server = chai.request('http://localhost:8080');
