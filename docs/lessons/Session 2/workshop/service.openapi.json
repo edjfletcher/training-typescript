@@ -1,0 +1,76 @@
+{
+  "openapi": "3.0.3",
+  "x-stoplight": {
+    "id": "d5xilscs46dmu"
+  },
+  "info": {
+    "title": "Title",
+    "description": "Title",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https"
+    }
+  ],
+  "paths": {
+    "/byName/{name}": {
+      "get": {
+        "summary": "Your GET endpoint",
+        "tags": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "author": {
+                      "type": "string"
+                    },
+                    "year_written": {
+                      "type": "number"
+                    },
+                    "edition": {
+                      "type": "string"
+                    },
+                    "price": {
+                      "type": "number"
+                    }
+                  }
+                },
+                "examples": {
+                  "example-1": {
+                    "value": {
+                      "title": "Northanger Abbey",
+                      "author": "Austen, Jane",
+                      "year_written": 1814,
+                      "edition": "Penguin",
+                      "price": 18.2
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "operationId": "get-:id",
+        "description": "Get a book by name"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "name": "name",
+          "in": "path",
+          "required": true
+        }
+      ]
+    }
+  }
+}
