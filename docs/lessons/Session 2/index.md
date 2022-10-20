@@ -1,22 +1,18 @@
 # Typescript session 2
 
 In this session we will learn the following JS and TS features
-## JS
 
- - String Literals
- - Truthy + Flasey
- - Objects
- - Map + Set
+| ES6              | TS                         |
+|------------------|----------------------------|
+| String Literals  |                            |
+| Truthy + falsy   |                            |
+|                  | Unions                     |
+| Objects          | Same, lead into interfaces |
+|                  | Interfaces (and structs)   |
+|                  | Function Interfaces        |
+| Map + Set        | Content types              |
 
-## TS
-
- - Unions
- - Interfaces
- - Structs
- - Function Interfaces
- - Map + set generics
-
-# Session
+## Session
 
  - lecture - 10m - go over new topics
  - describe project and split into teams - 5m
