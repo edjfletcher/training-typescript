@@ -14,7 +14,7 @@ In this session we will learn the following JS and TS features
 
 ## Session
 
- - lecture - 10m - go over new topics
+ - [lecture](./lecture.md) - 10m - go over new topics
  - describe project and split into teams - 5m
  - leave teams to develop, jump between teams - 30m?
  - get back together, present ideas - 5m per team ~20m
