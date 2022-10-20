@@ -74,6 +74,14 @@ interface Person {
     name: string;
     getName: () => string;
 }
+
+class Person implements Person {
+    public name: string;
+   
+    public getName = (): string => {
+        return this.name;
+    }
+}
 ```
 Once a method has been defined the interface can no longer be used to define a data object. Definitions for data objects are better known as Structs, to mean any object without methods.
 Although Typescript does diferentiate between interfaces and structs in my own code I find it useful to do so. I therefore end Struct definitions with the work Struct for clarity.
